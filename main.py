@@ -5,8 +5,8 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
 import ddddocr
 cookies = {
-        'JSESSIONID': 'CF95413790C32F2CDE75E6167AE78680',
-        'ut': 'CLkKl4dD0R78lX78a6Hm4gLl73Z7gZkxqvMQkyUEiZ4=',
+        'JSESSIONID': '**********************',
+        'ut': '***************************',
     }
 def getPho():
 
@@ -135,3 +135,4 @@ rtoken=check(token,pj)
 print(rtoken)
 #获取验证码加密数据
 send(aes_encrypt( rtoken+ "---" +w,sk ))
+
